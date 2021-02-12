@@ -1,0 +1,41 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    /*Animations for navigation bar color*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.navigation__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__logo {
+    width: 120px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    object-fit: contain;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.navigation__black {
+    background-color: #111;
+}
+
+.navigation__avatar {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+}
