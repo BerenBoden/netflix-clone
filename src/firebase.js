@@ -5,4 +5,4 @@ const firebaseConfig = {
     storageBucket: "netflix-clone-4e2c7.appspot.com",
     messagingSenderId: "648885065139",
     appId: "1:648885065139:web:d5643d77899f4a649827c6"
-  };
+};
