@@ -1,3 +1,7 @@
+:root {
+  --netflix-red: #e50914;
+}
+
 .app {
   background-color: #111;
   height: 100%;
